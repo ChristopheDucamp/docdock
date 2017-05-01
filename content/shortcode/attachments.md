@@ -16,16 +16,16 @@ Exemple :
 
 Le raccourci liste les fichiers trouvés dans un **répertoire** appelé comme votre page et finissant par **.files**.
 
-When your page is named "mypage.md", create a folder named mypage**.files** and place your files in it. that's all !
+Quand votre page est nommée "mypage.md", créez un répertoire nommé mypage**.files** et placez vos fichiers à l'intérieur. c'est tout !
 
-{{%alert info%}}**Tip** : Look at this documentation source code on github{{%/alert%}}
+{{%alert info%}}**Truc** : Regardez ce codes source de documentation sur github{{%/alert%}}
 
 ### paramètres
 
 | Paramètre | Par défaut | Description |
 |:--|:--|:--|
 | titre | "Attachments" | titre de liste  |
-| pattern | ".*" | Une expression regulière, utilisée pour filtrer les pièces jointes par nom de fichier. <br/><br/>{{%alert warning%}}La valeur du paramètre **pattern** doit être une [regular expressions](https://en.wikipedia.org/wiki/Regular_expression). 
+| pattern | ".*" | Une expression regulière, utilisée pour filtrer les pièces jointes par nom de fichier. <br/><br/>{{%alert warning%}}La valeur du paramètre **pattern** doit être une [expression rationnelle](https://fr.wikipedia.org/wiki/Expression_rationnelle). 
 
 Par exemple :
 
@@ -42,9 +42,9 @@ Par exemple :
 ## Démo
 ### Liste de pièces jointes finissant par pdf ou mp4
 
-	{{%/*attachments title="Related files" pattern=".*(pdf|mp4)"/*/%}}
+	{{%/*attachments title="Fichiers en rapport" pattern=".*(pdf|mp4)"/*/%}}
 
 donne ceci
 
-{{%attachments title="Related files" pattern=".*(pdf|mp4)"/%}}
+{{%attachments title="Fichiers en rapport" pattern=".*(pdf|mp4)"/%}}
 
