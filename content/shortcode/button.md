@@ -16,11 +16,11 @@ Affiche un bouton actionnable dans votre page.
 
 | Paramètre | Par défaut | Description |
 |:--|:--|:--|
-| href | "" | The location href to link to |
-| align | "center" | horizontal align button on page |
+| href | "" | l'endroit à lier pour le href |
+| align | "center" | alignement horizontal du bouton sur la page |
 | theme | `primary` | `default`, `primary` , `success`,`info`,`warning`,`danger` |
 
-Le texte que vous placez à l'intérieur en short code sera affiché comme le _texte du bouton_
+Le texte que vous placez à l'intérieur en shortcode sera affiché comme le _texte du bouton_
 
 ## Démo
 
@@ -31,10 +31,10 @@ Le texte que vous placez à l'intérieur en short code sera affiché comme le _t
 	{{</* button href="https://google.com" theme="danger" */>}} Danger ! {{</* /button */>}}
 	{{</* button href="https://google.com" theme="default" */>}} Danger ! {{</* /button */>}}
     
-{{<button href="https://google.com" >}} go to google {{< /button >}}
-{{<button href="https://google.com" theme="success">}} Success {{< /button >}}
+{{<button href="https://google.com" >}} aller sur google {{< /button >}}
+{{<button href="https://google.com" theme="success">}} Succès {{< /button >}}
 {{<button href="https://google.com" theme="info">}} Info {{< /button >}}
-{{<button href="https://google.com" theme="warning">}} Warning {{< /button >}}
+{{<button href="https://google.com" theme="warning">}} Attention {{< /button >}}
 {{<button href="https://google.com" theme="danger">}} Danger ! {{< /button >}}
 {{<button href="https://google.com" theme="default">}} Danger ! {{< /button >}}
 
