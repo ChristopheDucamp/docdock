@@ -15,7 +15,7 @@ weight = 1
 Les étapes qui suivent sont là pour vous aider à initialiser votre nouveau site web. Si vous ne connaissez pas du tout Hugo, nous vous suggérons de vous entraîner en suivant cette [documentation pour débutants](https://gohugo.io/overview/quickstart/).
 
 
-## Créez votre Documentation
+## Créer votre Documentation
 
 Hugo fournit une commande `new` pour créer un nouveau site web.
 
