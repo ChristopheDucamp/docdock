@@ -139,7 +139,7 @@ jQuery(document).ready(function() {
         $(".highlightable").unhighlight({ element: 'mark' }).highlight(value, { element: 'mark' });
 
         if (ajax && ajax.abort) ajax.abort();
-        
+
         jQuery('[data-search-clear]').on('click', function() {
             jQuery('[data-search-input]').val('').trigger('input');
             sessionStorage.removeItem('search-input');
@@ -161,7 +161,7 @@ jQuery(document).ready(function() {
 
         if (text.length > 5) {
             if (!clipInit) {
-                var text, clip = new Clipboard('.copy-to-clipboard', {
+                var text, clip = new Clipboard('.copier-dans-le-presse-papiers', {
                     text: function(trigger) {
                         text = $(trigger).prev('code').text();
                         return text.replace(/^\$\s/gm, '');
@@ -172,7 +172,7 @@ jQuery(document).ready(function() {
                 clip.on('success', function(e) {
                     e.clearSelection();
                     inPre = $(e.trigger).parent().prop('tagName') == 'PRE';
-                    $(e.trigger).attr('aria-label', 'Copied to clipboard!').addClass('tooltipped tooltipped-' + (inPre ? 'w' : 's'));
+                    $(e.trigger).attr('aria-label', 'Copié dans le presse papiers !').addClass('tooltipped tooltipped-' + (inPre ? 'w' : 's'));
                 });
 
                 clip.on('error', function(e) {

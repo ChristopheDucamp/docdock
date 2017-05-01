@@ -2,13 +2,13 @@
 {{ range where .Site.Pages "Source.BaseFileName" "_index" }} 
 	{{ .Content }} 
 {{else}}           
-	<h1>Customize your own home page</h1>
+	<h1>Personnalisez votre propre page d'accueil</h1>
 	<p>
-	  The site is working. Don't forget to customize this homepage with your own. You typically have 2 choices :
+	  Le site fonctionne. N'oubliez pas de personnaliser cette page d'accueil avec la vôtre. Vous avez généralement 2 choix :
 	</p>
 	<ul>
-	  <li><b>1. </b> Create a _index.md document in content folder</li>
-	  <li><b>2. </b> Configure your server to automatically redirect home page to one your documentation page</li>
+	  <li><b>1. </b> Créer un document _index.md dans le répetoire content</li>
+	  <li><b>2. </b> Configurez votre serveur pour rediriger automatiquement la page d'accueil vers l'une de vos pages de documentation.</li>
 	</ul>
 	<p><i class="fa fa-heart fa-4x"></i></p>
 {{ end }}  
