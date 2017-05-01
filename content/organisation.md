@@ -103,7 +103,7 @@ dans le [menu.main] ajoutez le param `weight` avec un numéro pour trier.
 
 ### Cacher une entrée de menu
 
-Ne configurez pas l'identifier pour masquer une entrée provenant de ... le menu.
+Ne configurez pas l'identifier pour masquer une entrée provenant du ... menu.
 Votre contenu reste joint à sa page parent.
 
 
