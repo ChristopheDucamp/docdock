@@ -26,7 +26,7 @@ Ajoutez des paramètres HTTP `width` et/ou `height` au lien image  pour retaille
 
 ## Ajout de classes CSS 
 
-Ajoutez un param HTTP `classes` au lien image pour ajouter des classes CSS. `shadow` et `border` sont disponibles mais vous pourriez en définir d'autres.
+Ajoutez un paramètre HTTP `classes` au lien image pour ajouter des classes CSS. `shadow` et `border` sont disponibles mais vous pourriez en définir d'autres.
 
 	![agence](https://github.com/vjeantet/vjeantet.fr/raw/master/static/images/sgthon/C.jpg?classes=border,shadow)
 
