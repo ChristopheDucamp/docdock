@@ -22,12 +22,11 @@ lastmodifieremail = "christophe@ducamp.me"
 </div>
 
 # Documentation Thème Hugo docDock
-[Hugo-theme-docdock {{%icon fa-github%}}](https://github.com/vjeantet/hugo-theme-docdock) est un thème pour Hugo, un moteur de site web rapide et moderne écrit en Go. Là où Hugo est souvent utilisé pour les blogs, ce thème est complètement conçu pour la documentation.
+[Hugo-theme-docdock {{%icon fa-github%}}](https://github.com/vjeantet/hugo-theme-docdock) est un thème pour Hugo, un moteur de site web rapide et moderne écrit en Go. Là où Hugo est souvent utilisé pour les blogs, ce thème a été entièrement conçu pour la documentation.
 
 Ce thème est une adaptation partielle du [thème Learn de matcornic {{%icon fa-github%}}](https://github.com/matcornic/hugo-theme-learn), un CMS moderne écrit en PHP.
 
 Cette démo actuelle a été générée statiquement avec Hugo en une simple commande : `hugo -t docdock` -- Le code source est [disponible ici sur GitHub {{%icon fa-github%}}](https://github.com/vjeantet/hugo-theme-docDock-doc)
-
 
 
 {{% panel theme="success" header="Déploiements automatiques" footer="Netlify construit, déploie et héberge les frontends." %}}
