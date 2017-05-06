@@ -1,4 +1,5 @@
 baseURL = "/"
+publishDir = "public"
 languageCode = "fr-fr"
 title = "Docdock"
 theme = "hugo-theme-docdock"

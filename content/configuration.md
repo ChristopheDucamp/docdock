@@ -1,12 +1,12 @@
 +++
 draft = false
-title = "Configuration"
+title = "Configuration du Thème"
 description = ""
 
 [menu.main]
 parent = "start"
 identifier = "configuration"
-weight = 2
+weight = 3
 
 +++
 

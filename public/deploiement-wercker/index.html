@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="fr" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="generator" content="Hugo 0.21-DEV" />
+    <meta name="description" content="">
+
+
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+
+    
+    <title>Déploiements Automatisés avec Wercker :: Docdock</title>
+    <link href="/Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/css/nucleus.css" rel="stylesheet">
+    <link href="/Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/css/hybrid.css" rel="stylesheet">
+    <link href="/Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/css/featherlight.min.css" rel="stylesheet">
+    <link href="/Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/css/perfect-scrollbar.min.css" rel="stylesheet">
+    <link href="/Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/css/horsey.css" rel="stylesheet">
+    <link href="/Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/css/theme.css" rel="stylesheet">
+    <link href="/Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/css/hugo-theme.css" rel="stylesheet">
+    <link rel="stylesheet" href="/Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/css/bootstrap.min.css">
+    <script src="/Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/js/jquery-2.x.min.js"></script>
+    <style type="text/css">:root #header + #content > #left > #rlblock_left
+    {display:none !important;}</style>
+    
+
+  </head>
+  <body class="" data-url="/Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/deploiement-wercker/">
+    <nav id="sidebar">
+  <div id="header-wrapper">
+    <div id="header">
+       
+	<p>Documentation de DocDock</p>
+ 
+
+
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fa fa-search"></i></label>
+    <input data-search-input id="search-by" type="text" placeholder="Chercher">
+    <span data-search-clear=""><i class="fa fa-close"></i></span>
+</div>
+<script type="text/javascript" src="/Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/js/lunr.min.js"></script>
+<script type="text/javascript" src="/Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/js/horsey.js"></script>
+<script type="text/javascript">
+    var baseurl = "file:\/\/\/Users\/xtof\/Sites\/Hugo\/themes-docdock-learn\/doc-docdock\/public";
+</script>
+<script type="text/javascript" src="/Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/js/search.js"></script>
+
+    
+</div>
+
+  <div class="highlightable">
+    <ul class="topics">
+    
+        <li data-nav-id="/Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/" class="dd-item">
+        <a href="/Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/"><i class="fa fa-fw fa-home"></i></a>
+        </li>
+    
+
+
+
+
+    <li data-nav-id="/Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/gettingstart/" class="dd-item 
+     
+    ">
+    
+    <a href="/Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/gettingstart/">Démarrage</a>
+        
+        
+    </li>
+
+    <li data-nav-id="/Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/page/" class="dd-item 
+     
+    ">
+    
+    <a href="/Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/page/"><i class='fa fa-edit'></i> Créer une Page</a>
+        
+        
+    </li>
+
+    <li data-nav-id="/Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/organisation/" class="dd-item 
+     
+    ">
+    
+    <a href="/Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/organisation/">Organisation du Contenu</a>
+        
+        
+    </li>
+
+    <li data-nav-id="/Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcodes/" class="dd-item 
+     
+    ">
+    
+    <a href="/Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcodes/">Raccourcis-code</a>
+        
+        
+    </li>
+
+    <li data-nav-id="/Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/search/" class="dd-item 
+     
+    ">
+    
+    <a href="/Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/search/">À Propos du Moteur de Recherche</a>
+        
+        
+    </li>
+
+    <li data-nav-id="/Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/deploiement-wercker/" class="dd-item 
+    active 
+    ">
+    
+    <a href="/Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/deploiement-wercker/">Déploiements Automatisés avec Wercker</a>
+        
+        
+        
+        
+        
+        
+    </li>
+
+    <li data-nav-id="/Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/deploiement-github/" class="dd-item 
+     
+    ">
+    
+    <a href="/Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/deploiement-github/">Héberger sur GitHub</a>
+        
+        
+    </li>
+
+
+
+
+<section id="shortcuts">
+    
+        <li class="" role="">
+            <h3>Plus</h3>
+            <a href="https://github.com/ChristopheDucamp/docdock"><i class='fa fa-github'></i> dépôt Github</a>
+            
+        </li>
+    
+        <li class="" role="">
+            
+            <a href="https://gohugo.io/"><i class='fa fa-bookmark'></i> Documentation Hugo</a>
+            
+        </li>
+    
+</section>
+
+
+    </ul>
+    
+     
+    <section id="footer">
+      
+    </section>
+  </div>
+</nav>
+
+        <section id="body">
+        <div id="overlay"></div>
+
+        <div class="padding highlightable">
+        
+          <div id="top-bar">
+              
+                
+                
+                
+              <div id="top-github-link">
+                  <a class="github-link" href="https://github.com/ChristopheDucamp/docdock/edit/master/content/deploiement-wercker.md" target="blank">
+                    <i class="fa fa-code-fork"></i>
+                    Modifiez cette page
+                  </a>
+              </div>
+                
+              
+              <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+
+                  <span id="sidebar-toggle-span">
+                      <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                        <i class="fa fa-bars"></i>
+                      </a>
+                  </span>
+                  <span id="toc-menu"><a href=""><i class="fa fa-list-alt"></i></a></span>
+
+                      <a href="file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public"> 
+                      <span class="fa fa-arrow-circle-right" style="font-size:larger" aria-hidden="true"></span> 
+                      Docdock</a> 
+                      
+                         / <a href='/Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/deploiement-wercker/'>Déploiements Automatisés avec Wercker</a>
+                      
+                      
+              </div>
+              
+                  <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#créer-un-site-basique-hugo">Créer un site basique Hugo</a></li>
+<li><a href="#paramétrer-le-contrôle-de-version">Paramétrer le contrôle de version</a></li>
+<li><a href="#ajouter-le-projet-à-github">Ajouter le projet à GitHub</a></li>
+<li><a href="#bienvenue-sur-wercker">Bienvenue sur wercker</a></li>
+<li><a href="#enregistrement">Enregistrement</a></li>
+<li><a href="#connexion-github-bitbucket">Connexion GitHub/Bitbucket</a></li>
+<li><a href="#ajouter-votre-projet">Ajouter votre projet</a></li>
+<li><a href="#select-a-repository">Select a repository</a></li>
+<li><a href="#configurer-l-accès">Configurer l&rsquo;accès</a></li>
+<li><a href="#public-or-not">Public or not</a></li>
+<li><a href="#wercker-yml">Wercker.yml</a></li>
+<li><a href="#and-we-ve-got-an-app">And we&rsquo;ve got an app</a></li>
+<li><a href="#adding-build-step">Adding build step</a></li>
+<li><a href="#using-hugo-build">Using Hugo-Build</a></li>
+<li><a href="#adding-a-deploy-pipeline">Adding a deploy pipeline</a></li>
+<li><a href="#adding-a-deploy-step">Adding a deploy step</a></li>
+<li><a href="#conclusion">Conclusion</a></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
+            </div>
+        
+              
+            <div id="body-inner">
+              
+              <h1>Déploiements Automatisés avec Wercker</h1>
+                
+
+
+
+
+<p>
+
+
+
+	<div class="panel panel-primary panel-warning">
+	<div class="panel-heading">Attention</div>
+	<div class="panel-body">Rédaction et traduction en cours et images manquantes.</div>
+	</div>
+
+
+
+Dans ce tutoriel nous réglerons un projet basique Hugo, et nous le configurerons ensuite avec un outil gratuit appelé Wercker pour déployer automatiquement le site généré à chaque fois que nous y ajoutons un article. Nous le déploierons sur GitHub pages car c&rsquo;est le moyen le plus facile pour paramétrer, mais vous verrez que vous pouvez utiliser tout ce que vous voudrez. Ce tutoriel vous emmène sur chaque étape du processus, complété d&rsquo;impressions écrans et il est plutôt long.</p>
+
+<p>Les hypothèses pour ce tutoriel sont que vous savez utiliser git pour le contrôle de version et que vous disposez d&rsquo;un compte chez GitHub. Si vous n&rsquo;êtes pas à l&rsquo;aise avec ça, regardez la <a href="https://help.github.com/articles/set-up-git/">section help</a> GitHub qui a une explication sur la façon d&rsquo;installer et utiliser git. Et vous pouvez aussi facilement vous créer un compte chez GitHub.</p>
+
+<h2 id="créer-un-site-basique-hugo">Créer un site basique Hugo</h2>
+
+<p>Il existe déjà des <a href="http://gohugo.io/overview/quickstart/">pages</a> dédiées pour décrire comment installer un site Hugo, par conséquent nous étudierons les étapes les plus basiques requises pour faire tourner un site et le lancer avant de plonger dans la configuration de Wercker. Tout le travail pour installer le projet est fait en utilisant la ligne de commande, et maintenu aussi simple que possible.</p>
+
+<p>Créez le nouveau site en utilisant la commande <code>hugo new site</code> et nous nous déplacerons à l&rsquo;intérieur.</p>
+
+<pre><code class="language-bash">hugo new site exemple-hugo-wercker
+cd exemple-hugo-wercker
+</code></pre>
+
+<p>Ajoutez le thème herring-cove en le clonant à l&rsquo;intérieur du répertoire <code>themes</code> en utilisant les commandes suivantes.</p>
+
+<pre><code class="language-bash">cd themes
+git clone https://github.com/spf13/herring-cove.git
+</code></pre>
+
+<p>Cloner ainsi le projet provoquera un conflit avec notre propre contrôle de version, par conséquent nous retirerons la configuration externe git.</p>
+
+<pre><code class="language-bash">rm -rf herring-cove/.git
+</code></pre>
+
+<p>Ajoutons une page rapide <strong>about</strong>.</p>
+
+<pre><code class="language-bash">hugo new about.md
+</code></pre>
+
+<p>Maintenant, nous modifierons contents/about.md pour nous assurer que ce n&rsquo;est plus un draft (ébauche) et y ajouterons un peu de texte.</p>
+
+<pre><code class="language-bash">hugo undraft content/about.md
+</code></pre>
+
+<p>Une fois terminé, c&rsquo;est toujours une bonne idée de faire une vérification rapide pour voir si tout fonctionne en le lançant</p>
+
+<pre><code class="language-bash">hugo server --theme=herring-cove
+</code></pre>
+
+<p>Si tout fonctionne, vous devriez pouvoir voir quelque chose d&rsquo;équivalent à l&rsquo;image en-dessous si vous tapez  <code>localhost:1313</code> dans la barre d&rsquo;URL de votre navigateur.</p>
+
+
+
+
+
+	<div class="panel panel-primary panel-warning">
+	<div class="panel-heading">Attention</div>
+	<div class="panel-body">Ajouter image site.</div>
+	</div>
+
+
+
+
+<p><img src="/img/creer-site-basique-hugo.png" alt="" /></p>
+
+<h2 id="paramétrer-le-contrôle-de-version">Paramétrer le contrôle de version</h2>
+
+<p>Ajouter git à notre projet se fait en lançant la commande <code>git init</code> à partir du répertoire racine du projet.</p>
+
+<pre><code class="language-bash">git init
+</code></pre>
+
+<p>Lancer <code>git status</code> à ce stade vous présentera vos entrées : le fichier <strong>config.toml</strong>, le répertoire  <strong>themes</strong>, le répertoire <strong>contents</strong>, et le répertoire <strong>public</strong>. Nous ne voulons pas que le répertoire <strong>public</strong> soit sous contrôle de version, car nous utiliserons wercker pour générer cela plus tard. Par conséquent, nous ajoutons un fichier <code>gitignore</code> qui exclura ça en utilisant la commande qui suit</p>
+
+<pre><code class="language-bash">echo &quot;/public&quot; &gt;&gt; .gitignore
+</code></pre>
+
+<p>Comme nous n&rsquo;avons pas encore de fichiers statiques en dehors du répertoire themes, , Wercker pourrait se plaindre quand nous essaierons de construire le site plus tard.
+Pour éviter cela, nous devons simplement ajouter n&rsquo;importe quel fichier au répertoire statique. Pour rester simple à ce stade, nous ajouterons un fichier <code>robots.txt</code> qui donnera un plein accès au site à tous les moteurs de recherche quand il sera construit.</p>
+
+<pre><code class="language-bash">echo &quot;User-agent: *\nDisallow:&quot; &gt; static/robots.txt
+</code></pre>
+
+<p>Après ça, nous pouvons ajouter tout au repo.</p>
+
+<pre><code class="language-bash">git commit -a -m &quot;Initial commit&quot;
+</code></pre>
+
+<h2 id="ajouter-le-projet-à-github">Ajouter le projet à GitHub</h2>
+
+<p>Premièrement, nous créerons un nouveau dépôt. Vous pouvez faire ça en cliquant sur le signe <strong>+</strong> tout en haut et à droite, ou en allant sur <a href="https://github.com/new">https://github.com/new</a></p>
+
+<p>Nous choisissons ensuite un nom pour le projet (<strong>exemple-hugo-wercker</strong>). Au moment de cliquer sur &ldquo;create repository&rdquo;, GitHub affiche les commandes pour ajouter un projet existant au site. Les commandes sont celles utilisées pour ce site, si vous suivez vous devrez utiliser celles indiquées par GitHub. Une fois que nous aurons exécuté ces commandes, le projet se trouve dans GitHub et nous pouvons passer à la configuration de Wercker.</p>
+
+<pre><code class="language-bash">git remote add origin git@github.com:VotreNomUtilisateurGitHub/exemple-hugo-wercker.git
+git push -u origin master
+</code></pre>
+
+<p><img src="/img/tutorials/automated-deployments/adding-the-project-to-github.png" alt="" /></p>
+
+<h2 id="bienvenue-sur-wercker">Bienvenue sur wercker</h2>
+
+<p>Commençons par créer un compte sur Wercker. Pour faire ceci, nous allons sur <a href="http://wercker.com">http://wercker.com</a> et cliquons sur le bouton <strong>Sign up</strong>.</p>
+
+<p><img src="/img/tutorials/automated-deployments/wercker-sign-up.png" alt="" /></p>
+
+<h2 id="enregistrement">Enregistrement</h2>
+
+<p>Pour nous simplifier la vie, nous nous enregistrons en utilisant GitHub. Si vous n&rsquo;avez pas de compte GitHub, ou si vous ne voulez pas l&rsquo;utiliser pour votre compte, vous pouvez bien sûr vous enregistrer tout aussi bien avec un nom d&rsquo;utilisateur et un mot de passe.</p>
+
+<p><img src="/img/tutorials/automated-deployments/wercker-sign-up-page.png" alt="" /></p>
+
+<h2 id="connexion-github-bitbucket">Connexion GitHub/Bitbucket</h2>
+
+<p>Après vous être enregistré.e, vous devrez lier votre compte  GitHub et/ou Bitbucket à Wercker. Vous faites ça en allant sur vos réglages de profil, et ensuite &ldquo;Git connections&rdquo;. Si vous vous êtes enregistré.e en utilisant GitHub, cela ressemblera à l&rsquo;image du dessous. Pour connecter un service manquant, cliquez simplement sur le bouton connect qui vous enverra ensuite soit sur GitHub ou Bitbucket où vous pourriez avoir besoin de vous connecter et d&rsquo;approuver l&rsquo;accès vers votre compte.</p>
+
+<p><img src="/img/tutorials/automated-deployments/wercker-git-connections.png" alt="" /></p>
+
+<h2 id="ajouter-votre-projet">Ajouter votre projet</h2>
+
+<p>Now that we&rsquo;ve got all the preliminaries out of the way, it&rsquo;s time to set up our application. For this we click on the <strong>+ Create</strong> button next to Applications. Create a new application, and choose to use GitHub.</p>
+
+<p><img src="/img/tutorials/automated-deployments/wercker-add-app.png" alt="" /></p>
+
+<h2 id="select-a-repository">Select a repository</h2>
+
+<p>Clicking this will make Wercker show you all the repositories you have on GitHub, but you can easily filter them as well. So we search for our repository, select it, and then click on &ldquo;Use selected repo&rdquo;.</p>
+
+<p><img src="/img/tutorials/automated-deployments/wercker-select-repository.png" alt="" /></p>
+
+<h2 id="configurer-l-accès">Configurer l&rsquo;accès</h2>
+
+<p>As Wercker doesn&rsquo;t access to check out your private projects by default, it will ask you what you want to do. When your project is public, as needs to be the case if you wish to use GitHub Pages, the top choice is recommended. When you use this it will simply check out the code in the same way anybody visiting the project on GitHub can do.</p>
+
+<p><img src="/img/tutorials/automated-deployments/wercker-access.png" alt="" /></p>
+
+<h2 id="public-or-not">Public or not</h2>
+
+<p>This is a personal choice; you can make an app public so that everyone can see more details about it. This doesn&rsquo;t give you any real benefits either way in general, although as part of the tutorial I have of course made this app public so you can see it in action <a href="https://app.wercker.com/#applications/5586dcbdaf7de9c51b02b0d5">yourself</a>.</p>
+
+<p><img src="/img/tutorials/automated-deployments/public-or-not.png" alt="" /></p>
+
+<h2 id="wercker-yml">Wercker.yml</h2>
+
+<p>Choose Default for your programming language. Wercker will now attempt to create an initial <em>wercker.yml</em> file for you. Or rather, it will create the code you can copy into it yourself. Because there is nothing special about our project according to Wercker, we will simply get the <code>debian</code> box. So what we do now is create a <em>wercker.yml</em> file in the local root of our project that contains the provided configuration, and after we finish setting up the app we will expand this file to make it actually do something.</p>
+
+<p><img src="/img/tutorials/automated-deployments/werckeryml.png" alt="" /></p>
+
+<h2 id="and-we-ve-got-an-app">And we&rsquo;ve got an app</h2>
+
+<p>The application is added now, and Wercker will be offering you the chance to trigger a build. As we haven&rsquo;t pushed up the <strong>wercker.yml</strong> file however, we will politely decline this option. Wercker has automatically added a build pipeline to your application.</p>
+
+<h2 id="adding-build-step">Adding build step</h2>
+
+<p>And now we&rsquo;re going to add the build step to the build pipeline. First, we go to the &ldquo;Registry&rdquo; action in the top menu and then search for &ldquo;hugo build&rdquo;. Find the <strong>Hugo-Build</strong> task by Arjen and select it.</p>
+
+<p><img src="/img/tutorials/automated-deployments/wercker-search.png" alt="" /></p>
+
+<h2 id="using-hugo-build">Using Hugo-Build</h2>
+
+<p>Inside the details of this step you will see how to use it. At the top is a summary for very basic usage, but when scrolling down you go through the README of the step which will usually contain more details about the advanced options available and a full example of using the step.</p>
+
+<p>We&rsquo;re not going to use any of the advanced features in this tutorial, so we&rsquo;ll return to our project and add the details we need to our wercker.yml file so that it looks like below:</p>
+
+<pre><code class="language-yaml">box: debian
+build:
+  steps:
+    - install-packages:
+        packages: git
+    - script:
+        name: download theme
+        code: |
+            $(git clone https://github.com/spf13/herring-cove ./themes/herring-cove)
+    - arjen/hugo-build:
+        version: &quot;0.14&quot;
+        theme: herring-cove
+        flags: --buildDrafts=true
+</code></pre>
+
+<p>As you can see, we have two steps in the build pipeline. The first step downloads the theme, and the second step runs arjen&rsquo;s hugo-build step. To use a different theme, you can replace the link to the herring-cove source with another theme&rsquo;s repository - just make sure the name of the folder you download the theme to (./themes/your-theme-name) matches the theme name you tell arjen/hugo-build to use (theme: your-theme-name). Now we&rsquo;ll test that it all works as it should by pushing up our wercker.yml file to GitHub and seeing the magic at work.</p>
+
+<pre><code class="language-bash">git commit -a -m &quot;Add wercker.yml&quot;
+git push origin master
+</code></pre>
+
+<p>Once completed a nice tick should have appeared in front of your first build, and if you want you can look at the details by clicking on it. However, we&rsquo;re not done yet as we still need to deploy it to GitHub Pages.</p>
+
+<p><img src="/img/tutorials/automated-deployments/using-hugo-build.png" alt="" /></p>
+
+<h2 id="adding-a-deploy-pipeline">Adding a deploy pipeline</h2>
+
+<p>In order to deploy to GitHub Pages we need to add a deploy pipeline.</p>
+
+<ol>
+<li><p>First, go to your Wercker application&rsquo;s page. Go to the &ldquo;Workflows&rdquo; tab and click on &ldquo;Add new pipeline.&rdquo; Name it whatever you want; &ldquo;deploy-production&rdquo; or &ldquo;deploy&rdquo; works fine. For your YML Pipeline name, type in &ldquo;deploy&rdquo; without quotes. Leave the hook type as &ldquo;Default&rdquo; and hit the Create button.</p></li>
+
+<li><p>Now you need to link the deploy pipeline to your build pipeline. In the workflow editor, click on the + next to your build pipeline and add the deploy pipeline you&rsquo;ve just made. Now the deploy pipeline will be run automatically whenever the build pipeline is completed successfully.</p></li>
+</ol>
+
+<p><img src="/img/tutorials/automated-deployments/adding-a-deploy-pipeline.png" alt="" /></p>
+
+<h2 id="adding-a-deploy-step">Adding a deploy step</h2>
+
+<p>Next, we need to add a step to our deploy pipeline that will deploy the Hugo-built website to your GitHub pages repository. Once again searching through the Steps registry, we find that the most popular step is the <strong>lukevevier/gh-pages</strong> step so we add the configuration for that to our wercker.yml file. Additionally, we need to ensure that the box we run on has git and ssh installed. We can do this using the <strong>install-packages</strong> command, which then turns the wercker.yml file into this:</p>
+
+<pre><code class="language-yaml">box: debian
+build:
+  steps:
+    - arjen/hugo-build:
+        version: &quot;0.14&quot;
+        theme: herring-cove
+        flags: --buildDrafts=true
+deploy:
+  steps:
+    - install-packages:
+        packages: git ssh-client
+    - lukevivier/gh-pages@0.2.1:
+        token: $GIT_TOKEN
+        domain: hugo-wercker.ig.nore.me
+        basedir: public
+</code></pre>
+
+<p>How does the GitHub Pages configuration work? We&rsquo;ve selected a couple of things, first the domain we want to use for the site. Configuring this here will ensure that GitHub Pages is aware of the domain you want to use.</p>
+
+<p>Secondly we&rsquo;ve configured the basedir to <strong>public</strong>, this is the directory that will be used as the website on GitHub Pages.</p>
+
+<p>And lastly, you can see here that this has a <strong>$GIT_TOKEN</strong> variable. This is used for pushing our changes up to GitHub and we will need to configure this before we can do that. To do this, go to your application page and click on the &ldquo;Environment&rdquo; tab. Under Application Environment Variables, put <strong>$GIT_TOKEN</strong> for the Key. Now you&rsquo;ll need to create an access token in GitHub. How to do that is described on a <a href="https://help.github.com/articles/creating-an-access-token-for-command-line-use/">GitHub help page</a>. Copy and paste the access token you generated from GitHub into the Value box. <strong>Make sure you check Protected</strong> and then hit Add.</p>
+
+<p><img src="/img/tutorials/automated-deployments/adding-a-deploy-step.png" alt="" /></p>
+
+<p>With the deploy step configured in Wercker, we can push the updated wercker.yml file to GitHub and it will create the GitHub pages site for us. The example site we used here is accessible under hugo-wercker.ig.nore.me</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>From now on, any time you want to put a new post on your blog all you need to do is push your new page to GitHub and the rest will happen automatically. The source code for the example site used here is available on <a href="https://github.com/ArjenSchwarz/hugo-wercker-example">GitHub</a>, as is the <a href="https://github.com/ArjenSchwarz/wercker-step-hugo-build">Hugo Build step</a> itself.</p>
+
+<p>If you want to see an example of how you can deploy to S3 instead of GitHub pages, take a look at <a href="http://devcenter.wercker.com/docs/deploy/s3.html">Wercker&rsquo;s documentation</a> about how to set that up.</p>
+
+
+<footer class=" footline" >
+	
+</footer>
+
+
+
+      </div>
+    </div>
+
+    
+ 
+    
+
+    <div id="navigation">
+        
+
+          
+        
+              
+            
+                
+                    
+                        
+                        
+                    
+                
+            
+                
+                    
+                        
+                        
+                    
+                
+            
+                
+                    
+                        
+                        
+                    
+                
+            
+                
+                    
+                        
+                        
+                    
+                
+            
+                
+                    
+                        
+                        
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                        
+                        
+                            
+                                
+                            
+                        
+                    
+                
+            
+
+            
+                <a class="nav nav-prev" href="/Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/search/" title="À Propos du Moteur de Recherche"> <i class="fa fa-chevron-left"></i></a>
+            
+            
+                <a class="nav nav-next" href="/Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/deploiement-github/" title="Héberger sur GitHub" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+            
+        
+    </div>
+
+    </section>
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/js/clipboard.min.js"></script>
+    <script src="/Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/js/perfect-scrollbar.min.js"></script>
+    <script src="/Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/js/perfect-scrollbar.jquery.min.js"></script>
+    <script src="/Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/js/jquery.sticky-kit.min.js"></script>
+    <script src="/Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/js/featherlight.min.js"></script>
+    <script src="/Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/js/html5shiv-printshiv.min.js"></script>
+    <script src="/Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/js/modernizr.custom.71422.js"></script>
+    <script src="/Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/js/learn.js"></script>
+    <script src="/Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/js/hugo-learn.js"></script>
+    
+
+  </body>
+</html>
+

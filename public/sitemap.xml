@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/deploiement-github/</loc>
+    <lastmod>2017-05-02T10:22:24+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/page-images/</loc>
+    <lastmod>2017-05-02T00:05:24+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/</loc>
+    <lastmod>2017-05-01T20:34:24+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/logo/</loc>
+    <lastmod>2017-05-01T14:48:24+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcodes/</loc>
+    <lastmod>2017-05-01T13:43:24+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/extramenu/</loc>
+    <lastmod>2017-05-01T13:22:24+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/myslide/</loc>
+    <lastmod>2017-05-01T12:42:24+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/_header/</loc>
+    <lastmod>2017-05-01T12:36:24+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/homepage/</loc>
+    <lastmod>2017-05-01T12:33:24+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/page-slide/</loc>
+    <lastmod>2017-05-01T12:32:24+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/page/</loc>
+    <lastmod>2017-05-01T12:22:24+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/parametrer-hugo/</loc>
+  </url>
+  
+  <url>
+    <loc>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/configuration/</loc>
+  </url>
+  
+  <url>
+    <loc>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/gettingstart/</loc>
+  </url>
+  
+  <url>
+    <loc>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/tags/d%C3%A9ploiement/</loc>
+    <lastmod>2017-05-02T10:22:24+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/deploiement-wercker/</loc>
+  </url>
+  
+  <url>
+    <loc>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/tags/git/</loc>
+    <lastmod>2017-05-02T10:22:24+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/tags/github/</loc>
+    <lastmod>2017-05-02T10:22:24+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/tags/h%C3%A9bergement/</loc>
+    <lastmod>2017-05-02T10:22:24+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/installation/</loc>
+  </url>
+  
+  <url>
+    <loc>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/organisation/</loc>
+  </url>
+  
+  <url>
+    <loc>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcode/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/tags/tag1/</loc>
+    <lastmod>2017-05-01T12:33:24+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/tags/tag2/</loc>
+    <lastmod>2017-05-01T12:33:24+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/tags/</loc>
+    <lastmod>2017-05-02T10:22:24+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcode/alert/</loc>
+  </url>
+  
+  <url>
+    <loc>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcode/attachments/</loc>
+  </url>
+  
+  <url>
+    <loc>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcode/button/</loc>
+  </url>
+  
+  <url>
+    <loc>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcode/children/</loc>
+  </url>
+  
+  <url>
+    <loc>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcode/excerpt/</loc>
+  </url>
+  
+  <url>
+    <loc>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcode/excerpt-include/</loc>
+  </url>
+  
+  <url>
+    <loc>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcode/icon/</loc>
+  </url>
+  
+  <url>
+    <loc>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcode/image/</loc>
+  </url>
+  
+  <url>
+    <loc>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcode/mermaid/</loc>
+  </url>
+  
+  <url>
+    <loc>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcode/notice/</loc>
+  </url>
+  
+  <url>
+    <loc>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcode/children-1/</loc>
+  </url>
+  
+  <url>
+    <loc>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcode/children-2/</loc>
+  </url>
+  
+  <url>
+    <loc>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcode/children-3/</loc>
+  </url>
+  
+  <url>
+    <loc>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcode/children-4/</loc>
+  </url>
+  
+  <url>
+    <loc>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcode/panel/</loc>
+  </url>
+  
+  <url>
+    <loc>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcode/revealjs/</loc>
+  </url>
+  
+  <url>
+    <loc>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/search/</loc>
+  </url>
+  
+</urlset>

@@ -12,7 +12,7 @@ weight = 1
 
 
 
-Les étapes qui suivent sont là pour vous aider à initialiser votre nouveau site web. Si vous ne connaissez pas du tout Hugo, nous vous suggérons de vous entraîner en suivant cette [documentation pour débutants](https://gohugo.io/overview/quickstart/).
+Les étapes qui suivent sont là pour vous aider à initialiser votre nouveau site web. Si vous ne connaissez pas du tout Hugo, nous vous suggérons de vous entraîner en suivant [ici les instructions de paramétrage]({{%relref "parametrer-hugo.md"%}}) ou cette [documentation rapide pour débutants](https://gohugo.io/overview/quickstart/).
 
 
 ## Créer votre Documentation

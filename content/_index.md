@@ -26,7 +26,7 @@ lastmodifieremail = "christophe@ducamp.me"
 
 Ce thème est une adaptation partielle du [thème Learn de matcornic {{%icon fa-github%}}](https://github.com/matcornic/hugo-theme-learn), un CMS moderne écrit en PHP.
 
-Cette démo actuelle a été générée statiquement avec Hugo en une simple commande : `hugo -t docdock` -- Le code source est [disponible ici sur GitHub {{%icon fa-github%}}](https://github.com/vjeantet/hugo-theme-docDock-doc)
+Cette démo actuelle a été générée statiquement avec Hugo en une simple commande : `hugo -t docdock` -- Le code source est [disponible ici sur GitHub {{%icon fa-github%}}](https://github.com/vjeantet/hugo-theme-docDock)
 
 
 {{% panel theme="success" header="Déploiements automatiques" footer="Netlify construit, déploie et héberge les frontends." %}}

@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Accueil on Docdock</title>
+    <link>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/</link>
+    <description>Recent content in Accueil on Docdock</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Mon, 01 May 2017 20:34:24 +0200</lastBuildDate>
+    
+	<atom:link href="file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Héberger sur GitHub</title>
+      <link>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/deploiement-github/</link>
+      <pubDate>Tue, 02 May 2017 10:22:24 +0200</pubDate>
+      
+      <guid>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/deploiement-github/</guid>
+      <description>Attention Page voulue à traduire https://hugodocs.info/hosting-and-deployment/hosting-on-github/  GitHub fournit un hébergement gratuit et rapide sur SSL pour les pages personnelles, d&amp;rsquo;organisation ou projet directement à partir d&amp;rsquo;un dépôt GitHub via son service GitHub Pages.
+Hypothèses  You have Git 2.5 or greater installed on your machine. You have a GitHub account. Signing up for GitHub is free. You have a ready-to-publish Hugo website or have at least completed the Quick Start.</description>
+    </item>
+    
+    <item>
+      <title>À propos des images</title>
+      <link>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/page-images/</link>
+      <pubDate>Tue, 02 May 2017 00:05:24 +0200</pubDate>
+      
+      <guid>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/page-images/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Emplacement du Logo</title>
+      <link>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/logo/</link>
+      <pubDate>Mon, 01 May 2017 14:48:24 +0200</pubDate>
+      
+      <guid>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/logo/</guid>
+      <description>Créez une page _header.md dans le répertoire content. Son contenu est ce que vous obtiendrez à l&amp;rsquo;emplacement du logo (tout en haut à gauche de l&amp;rsquo;écrant).
+Considération pour l&amp;rsquo;emplacement du logo Ne réglez pas [menu.main] dans le frontmatter de votre fichier _header.md  Truc : vous pouvez ajouter une image, une combobox avec des liens vers une autre documentation&amp;hellip; Truc 2 : regardez Entrées menu supplémentaires si vous voulez ajouter des liens vers un autre site web dans cette barre latérale </description>
+    </item>
+    
+    <item>
+      <title>Raccourcis-code</title>
+      <link>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcodes/</link>
+      <pubDate>Mon, 01 May 2017 13:43:24 +0200</pubDate>
+      
+      <guid>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcodes/</guid>
+      <description>Quelques raccourcis de sont disponibles avec ce thème :
+revealjs alert attachments button children excerpt icon image mermaid notice panel  </description>
+    </item>
+    
+    <item>
+      <title>Entrée menu supplémentaires</title>
+      <link>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/extramenu/</link>
+      <pubDate>Mon, 01 May 2017 13:22:24 +0200</pubDate>
+      
+      <guid>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/extramenu/</guid>
+      <description>Vous pouvez définir des entrées de menu supplémentaires dans le menu de navigation sans quelque lien vers le contenu.
+Modifiez la configuration du site web config.toml et ajoutez une entrée [[menu.shortcuts]] pour chaque lien que vous voulez ajouter.
+Exemple pour le site web actuel, remarquez le param pre qui vous permet d&amp;rsquo;insérer du code HTML et utilisé ici pour séparer le contenu du menu de ce menu &amp;ldquo;statique&amp;rdquo;
+[[menu.shortcuts]] pre = &amp;quot;&amp;lt;h3&amp;gt;Plus&amp;lt;/h3&amp;gt;&amp;quot; name = &amp;quot;&amp;lt;i class=&#39;fa fa-github&#39;&amp;gt;&amp;lt;/i&amp;gt; Dépôt Github&amp;quot; identifier = &amp;quot;ds&amp;quot; url = &amp;quot;https://github.</description>
+    </item>
+    
+    <item>
+      <title>Mes Slides ! en plein écran</title>
+      <link>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/myslide/</link>
+      <pubDate>Mon, 01 May 2017 12:42:24 +0200</pubDate>
+      
+      <guid>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/myslide/</guid>
+      <description> Le matin Se lever  Éteindre le réveil Sortir du lit  Petit déjeuner  Manger des oeufs Boire du café  Dans la soirée Dîner  Manger des courgettes Boire du vin  Aller dormir  Aller au lit Compter les moutons  </description>
+    </item>
+    
+    <item>
+      <title>header</title>
+      <link>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/_header/</link>
+      <pubDate>Mon, 01 May 2017 12:36:24 +0200</pubDate>
+      
+      <guid>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/_header/</guid>
+      <description>Documentation de DocDock</description>
+    </item>
+    
+    <item>
+      <title>Page d&#39;Accueil</title>
+      <link>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/homepage/</link>
+      <pubDate>Mon, 01 May 2017 12:33:24 +0200</pubDate>
+      
+      <guid>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/homepage/</guid>
+      <description>Pour dire à Hugo-theme-docdock de considérer une page comme du contenu pour la page d&amp;rsquo;accueil, créez simplement un fichier appelé _index.md dans le répertoire du contenu.
+Considération pour la Page d&amp;rsquo;Accueil Ne pas régler [menu.main] dans le frontmatter de votre fichier _index.md  </description>
+    </item>
+    
+    <item>
+      <title>Présenter une Slide</title>
+      <link>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/page-slide/</link>
+      <pubDate>Mon, 01 May 2017 12:32:24 +0200</pubDate>
+      
+      <guid>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/page-slide/</guid>
+      <description>Une page basique de contenu md peut être restituée comme une présentation plein écran reveal.js.
+Vous pouvez aussi, embarquer une présentation dans une page sous forme de petite boîte, en utilisant le shortcode revealjs dans votre fichier md. Mise en Page Utilisez votre syntaxe commune Markdown que vous utilisez dans Hugo, n&amp;rsquo;oubliez pas que vous pouvez aussi placer des balises HTML.
+La syntaxe spéciale (en commentaire html) est disponible pour ajouter des attribut aux éléments Markdown.</description>
+    </item>
+    
+    <item>
+      <title>Créer une Page</title>
+      <link>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/page/</link>
+      <pubDate>Mon, 01 May 2017 12:22:24 +0200</pubDate>
+      
+      <guid>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/page/</guid>
+      <description>Hugo-theme-docdock définit deux types de pages. Default et Slide.
+ Default est la page commune comme celle que vous êtes en train de lire. Slide est une page qui utilise le plein écran pour afficher son contenu en markdown comme une présentation reveals.js. HomePage est un contenu spécial qui s&amp;rsquo;affichera comme un contenu de page d&amp;rsquo;accueil.  Pour dire à Hugo-theme-docdock de considérer une page comme un diapo, ajoutez simplement dedans un type=&amp;quot;slide&amp;quot; dans le frontmatter de votre fichier.</description>
+    </item>
+    
+    <item>
+      <title>Configuration Rapide Hugo</title>
+      <link>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/parametrer-hugo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/parametrer-hugo/</guid>
+      <description>Pré-requis  Golang installé GOPATH configuré  Installation go get -v github.com/spf13/hugo  Une fois le get terminé, vous devriez trouver l&amp;rsquo;exécutable hugo à l&amp;rsquo;intérieur de $GOPATH/bin/. Pour mettre à jour les dépendances d&amp;rsquo;Hugo, utilisez go get avec l&amp;rsquo;option -u.
+go get -u -v github.com/spf13/hugo  Créer votre Site Naviguez vers un endroit adéquat sur votre système de fichier et créez un nouveau site Hugo monsite en exécutant la commande suivante.</description>
+    </item>
+    
+    <item>
+      <title>Configuration du Thème</title>
+      <link>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/configuration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/configuration/</guid>
+      <description>Au moment de créer le site web, vous pouvez paramétrer un thème en utilisant l&amp;rsquo;option --theme. Nous vous suggérons de modifier votre fichier de configuration et de paramétrer le thème par défaut. Exemple avec le format config.toml.
+theme = &amp;quot;docdock&amp;quot;  Génération d&amp;rsquo;un Index de Recherche Ajoutez la ligne suivante dans le même fichier de configuration.
+[outputs] home = [ &amp;quot;HTML&amp;quot;, &amp;quot;RSS&amp;quot;, &amp;quot;JSON&amp;quot;]  Le fichier d&amp;rsquo;index de recherche LUNRJS sera généré sur les modifications de contenus.</description>
+    </item>
+    
+    <item>
+      <title>Démarrage</title>
+      <link>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/gettingstart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/gettingstart/</guid>
+      <description> Pré-requis Téléchargez Hugo pour votre OS (Windows, Linux, Mac) : ça c&amp;rsquo;est vraiment simple
+Installation Configuration Rapide Hugo Configuration du Thème  </description>
+    </item>
+    
+    <item>
+      <title>Déploiements Automatisés avec Wercker</title>
+      <link>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/deploiement-wercker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/deploiement-wercker/</guid>
+      <description>Attention Rédaction et traduction en cours et images manquantes.  Dans ce tutoriel nous réglerons un projet basique Hugo, et nous le configurerons ensuite avec un outil gratuit appelé Wercker pour déployer automatiquement le site généré à chaque fois que nous y ajoutons un article. Nous le déploierons sur GitHub pages car c&amp;rsquo;est le moyen le plus facile pour paramétrer, mais vous verrez que vous pouvez utiliser tout ce que vous voudrez.</description>
+    </item>
+    
+    <item>
+      <title>Installation</title>
+      <link>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/installation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/installation/</guid>
+      <description>Les étapes qui suivent sont là pour vous aider à initialiser votre nouveau site web. Si vous ne connaissez pas du tout Hugo, nous vous suggérons de vous entraîner en suivant ici les instructions de paramétrage ou cette documentation rapide pour débutants.
+Créer votre Documentation Hugo fournit une commande new pour créer un nouveau site web.
+$ hugo new site &amp;lt;nouveau_site_web&amp;gt;  Installer le Thème Installez le thème Hugo-theme-docdock en suivant ceci</description>
+    </item>
+    
+    <item>
+      <title>Organisation du Contenu</title>
+      <link>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/organisation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/organisation/</guid>
+      <description>Avec Hugo, les pages sont le coeur de votre site. Organisez votre site comme tout autre projet Hugo. La magie se passe dans le frontmatter de chaque contenu.
+Menu Hugo dispose d&amp;rsquo;un système de menu simple et puissant qui permet au contenu d&amp;rsquo;être placé dans les menus avec un bon niveau de contrôle sans trop de travail, dans les pages de contenus.
+Chaque page de contenu compose le menu, elles façonnent la structure de votre site web.</description>
+    </item>
+    
+    <item>
+      <title>alert</title>
+      <link>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcode/alert/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcode/alert/</guid>
+      <description>Le shortcode alert vous permet de mettre en valeur l&amp;rsquo;information dans votre page. Il crée une boîte colorée entourant votre texte, comme ceci :
+Ceci est une alerte ! Usage    Paramètre Par défaut Description     theme info success, info,warning,danger    Trucs : régler seulement le thème comme argument fonctionne aussi : {{%alert warning%}} au lieu de {{%alert theme=&amp;quot;warning&amp;quot;%}}
+ Exemples basiques {{% alert theme=&amp;quot;info&amp;quot; %}}**ceci** est un texte {{% /alert %}} {{% alert theme=&amp;quot;success&amp;quot; %}}**Yeahhh !</description>
+    </item>
+    
+    <item>
+      <title>attachments</title>
+      <link>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcode/attachments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcode/attachments/</guid>
+      <description>Le shortcode Attachments affiche une liste de fichiers attachés à une page. Exemple :  Attachments   BachGavotteShort.mp3 (357 ko)   Carroll_AliceAuPaysDesMerveilles.pdf (1696 ko)   adivorciarsetoca00cape.pdf (2942 ko)   hugo.png (17 ko)   movieselectricsheep-flock-244-32500-2.mp4 (340 ko)   newsendbook.php?id=2858 (0 ko)    Usage Le raccourci liste les fichiers trouvés dans un répertoire appelé comme votre page et finissant par .files.
+Quand votre page est nommée &amp;ldquo;mypage.</description>
+    </item>
+    
+    <item>
+      <title>button</title>
+      <link>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcode/button/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcode/button/</guid>
+      <description>Affiche un bouton actionnable dans votre page.
+ Ceci est un bouton d&#39;avertissement   Usage    Paramètre Par défaut Description     href &amp;rdquo;&amp;rdquo; l&amp;rsquo;endroit à lier pour le href   align &amp;ldquo;center&amp;rdquo; alignement horizontal du bouton sur la page   theme primary default, primary , success,info,warning,danger    Le texte que vous placez à l&amp;rsquo;intérieur en shortcode sera affiché comme le texte du bouton</description>
+    </item>
+    
+    <item>
+      <title>children</title>
+      <link>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcode/children/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcode/children/</guid>
+      <description> This shortcode will list the child pages of a page.
+Usage    Parameter Default Description     style &amp;ldquo;li&amp;rdquo; Choose the style used to display descendants. It could be any HTML tag name   nohidden &amp;ldquo;false&amp;rdquo; When true, child pages hidden from the menu will not display    Demo    {{}} {{}} {{}}      page 1 page 2 page 3 page 4   page 1 page 2 page 3 page 4    page 1 page 2 page 3      </description>
+    </item>
+    
+    <item>
+      <title>excerpt</title>
+      <link>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcode/excerpt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcode/excerpt/</guid>
+      <description>Le code raccourci Excerpt est utilisé pour marquer une page de contenu d&amp;rsquo;une page pour ré-utilisation. Définir un excerpt permet d&amp;rsquo;autres shortcodes, comme le shortcode excerpt-include shortcode, pour affichier le contenu marqué ailleurs.
+Vous ne pouvez définir seulement qu&amp;rsquo;un excerpt par page. En d&amp;rsquo;autres mots, vous ne pouvez seulement ajouter le shortcode Excerpt qu&amp;rsquo;une fois par page. Usage    Paramètre Par défaut Description     hidden &amp;ldquo;false&amp;rdquo; Contrôle si le contenu de la page contenu dans l&amp;rsquo;emplacement du shortcode Excerpt est affiché sur la page.</description>
+    </item>
+    
+    <item>
+      <title>excerpt-include</title>
+      <link>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcode/excerpt-include/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcode/excerpt-include/</guid>
+      <description>The Excerpt Include shortcode is used to display &amp;lsquo;excerpted&amp;rsquo; (that is, a segment of) content from one page in another. Before you can use this shortcode, the excerpt must have been defined using the Excerpt shortcode. Note that you can have more than one Excerpt Include shortcode on a page (although you can have only one Excerpt shortcode on a page). Usage    Parameter Default Description     filename required Type the filename of the page that contains the excerpt to be displayed.</description>
+    </item>
+    
+    <item>
+      <title>icon</title>
+      <link>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcode/icon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcode/icon/</guid>
+      <description>Affiche une icône comme   
+Cela utilise :
+ la bibiothèque glyphicons (bootstrap).plus d&amp;rsquo;infos ici la bibliothèque fontawesome plus d&amp;rsquo;infos ici  Ce shortcode icon affichera une icône dans votre page.
+Usage    Paramètre Par défaut Description     nom requis nom de l&amp;rsquo;icône (voir en-dessous)   size none size of icon, medium, xx-small, x-small, small, large, x-large, xx-large, 11px, 2em, 20%&amp;hellip;.    Trucs : Ne réglera que le nom comme argument fonctionne aussi : {{&amp;lt;icon film&amp;gt;}} au lieu de {{&amp;lt;icon name=&amp;quot;film&amp;quot;&amp;gt;}}</description>
+    </item>
+    
+    <item>
+      <title>image</title>
+      <link>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcode/image/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcode/image/</guid>
+      <description>Les images ont une syntaxe similaire aux liens mais sont précédées d&amp;rsquo;un point d&amp;rsquo;exclamation.
+![agence](https://github.com/vjeantet/vjeantet.fr/raw/master/static/images/sgthon/C.jpg)  Retailler une image Ajoutez des paramètres HTTP width et/ou height au lien image pour retailler l&amp;rsquo;image. Les valeurs sont des valeurs CSS (par défaut auto).
+![Hackathon](https://github.com/vjeantet/vjeantet.fr/raw/master/static/images/sgthon/C.jpg?height=80px)  Ajout de classes CSS Ajoutez un param HTTP classes au lien image pour ajouter des classes CSS. shadow et border sont disponibles mais vous pourriez en définir d&amp;rsquo;autres.</description>
+    </item>
+    
+    <item>
+      <title>mermaid</title>
+      <link>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcode/mermaid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcode/mermaid/</guid>
+      <description> Exemple GANTT {{&amp;lt;mermaid&amp;gt;}} gantt dateFormat YYYY-MM-DD title Ajout fonctionnalité de diagramme de GANTT à mermaid section A section Completed task :done, des1, 2014-01-06,2014-01-08 Active task :active, des2, 2014-01-09, 3d Future task : des3, after des2, 5d Future task2 : des4, after des3, 5d section Critical tasks Completed task in the critical line :crit, done, 2014-01-06,24h Implement parser and jison :crit, done, after des1, 2d Create tests for parser :crit, active, 3d Future task in critical line :crit, 5d Create tests for renderer :2d Add to mermaid :1d {{&amp;lt; /mermaid &amp;gt;}}  </description>
+    </item>
+    
+    <item>
+      <title>notice</title>
+      <link>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcode/notice/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcode/notice/</guid>
+      <description>Le raccourci notice montre 4 types d&amp;rsquo;avertissement pour vous aider à structurer votre page.
+Note {{% notice note %}} Un avertissement {{% /notice %}}  donne
+Un avertissement
+ Info {{% notice info %}} Un avertissement d&#39;information {{% /notice %}}  donne
+Un avertissement d&amp;rsquo;information
+ Tip {{% notice tip %}} Un avertissement pour un truc {{% /notice %}}  renders as
+Un avertissement pour un truc
+ Warning {{% notice warning %}} Un avertissement / warning {{% /notice %}}  donne</description>
+    </item>
+    
+    <item>
+      <title>page 1</title>
+      <link>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcode/children-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcode/children-1/</guid>
+      <description>Ceci est une démo de page enfant</description>
+    </item>
+    
+    <item>
+      <title>page 2</title>
+      <link>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcode/children-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcode/children-2/</guid>
+      <description>This is a demo child page</description>
+    </item>
+    
+    <item>
+      <title>page 3</title>
+      <link>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcode/children-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcode/children-3/</guid>
+      <description>This is a demo child page</description>
+    </item>
+    
+    <item>
+      <title>page 4</title>
+      <link>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcode/children-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcode/children-4/</guid>
+      <description>This is a demo child page, not displayed in the menu</description>
+    </item>
+    
+    <item>
+      <title>panel</title>
+      <link>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcode/panel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcode/panel/</guid>
+      <description>Le raccourci panel Vous permet de mettre en valeur l&amp;rsquo;information ou la placer dans une boîte. Cela crée une boîte colorée entourant votre texte  Usage    Paramètre par défaut Description     header none Le titre du panel. Si spécifié, ce titre sera affiché dans sa propre ligne de titre.   footer none le pied de page du panel. Si spécifié, ce texte sera affiché dans sa propre ligne.</description>
+    </item>
+    
+    <item>
+      <title>revealjs</title>
+      <link>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcode/revealjs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/shortcode/revealjs/</guid>
+      <description>Ce raccourci code met en forme le markdown embarqué pour le restituer avec reveal.js en runtime (côté-client)
+Lisez en plus à ce sujet sur le dépôt github revealjs.
+Usage revealjs peut utiliser les paramètres nommés suivants :
+ theme transition controls progress history center  Important Même si le contenu entouré est du markdown, utilisez la notation shortcode &amp;lt; au lieu de la notation %  Mise en page du contenu et délimiteur de slides en savoir plus ici</description>
+    </item>
+    
+    <item>
+      <title>À Propos du Moteur de Recherche</title>
+      <link>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>file:///Users/xtof/Sites/Hugo/themes-docdock-learn/doc-docdock/public/search/</guid>
+      <description>Rien à faire vous concernant. :-)
+Le thème Docdock utilise la dernière amélioration disponible dans Hugo version 20+ pour générer un fichier index json à consommer par le moteur de recherche javascript lunr.js.</description>
+    </item>
+    
+  </channel>
+</rss>
